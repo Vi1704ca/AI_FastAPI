@@ -161,3 +161,66 @@ body::before {
     z-index: -1;
     opacity: 0.3;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.message {
+    background-color: #e9ecef;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin-top: 20px;
+    white-space: pre-wrap; /* Сохраняем пробелы и переносы строк */
+    font-family: 'Courier New', Courier, monospace; /* Шрифт для кода */
+    color: #333;
+}
+
+code {
+    background-color: #f8f9fa;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #2440b1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    display: inline-block;
+}
+
+pre code {
+    display: block;           /* Блочное отображение */
+    padding: 16px;            
+    margin: 10px 0;           /* Отступы сверху и снизу */
+    border-left: 4px solid #007acc; /* Акцентная полоса слева */
+    background-color: #252526; /* Чуть другой оттенок фона */
+}
+
+code {
+    background-color: #1e1e1e; /* Тёмный фон для современного вида */
+    padding: 8px 12px;         
+    border-radius: 6px;        /* Мягкое скругление углов */
+    color: #9cdcfe;           /* Приятный голубой цвет текста */
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace; /* Шрифт для кода */
+    font-size: 14px;          
+    display: inline-block;    
+    line-height: 1.5;         /* Улучшает читаемость строк */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+    white-space: pre;         /* Сохраняет пробелы и переносы */
+    overflow-x: auto;         /* Автопрокрутка для длинных строк */
+    max-width: 100%;          /* Отзывчивость */
+}
