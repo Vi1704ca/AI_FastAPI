@@ -26,5 +26,5 @@
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/ai-chatbot.git
-cd ai-chatbot
+git clone https://github.com/Vi1704ca/AI_FastAPI.git
+cd chat_server
